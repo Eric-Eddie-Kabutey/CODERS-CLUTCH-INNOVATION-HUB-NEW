@@ -1,0 +1,43 @@
+// Feature case studies
+export const CAROUSEL_DATA = [
+    {
+        id: 1,
+        category: "Mentors & Advisors",
+        title: "Startup School: GenAI Media",
+        subtitle: "Build intelligent multi-modal apps",
+        linkText: "Register now",
+        image: "/home/case-studies/mentors-advisors.webp", 
+        bgColor: "bg-blue-500",
+        textColor: "text-white",
+    },
+    {
+        id: 2,
+        category: "Investor Network",
+        title: "Google for Startups Gemini Kit",
+        subtitle: "Everything you need to kickstart your AI journey.",
+        linkText: "Explore",
+        image: "/home/case-studies/investor-network.webp",
+        bgColor: "bg-white",
+        textColor: "text-gray-800",
+    },
+    {
+        id: 3,
+        category: "Corporate Partners",
+        title: "Startup Technical Guides to AI Agents",
+        subtitle: "Build AI agents from prototype to production",
+        linkText: "Learn more",
+        image: "/home/case-studies/corporate-partners.webp",
+        bgColor: "bg-red-500",
+        textColor: "text-white",
+    },
+    {
+        id: 4,
+        category: "Alumni Community",
+        title: "Startup Technical Guides to AI Agents",
+        subtitle: "Build AI agents from prototype to production",
+        linkText: "Learn more",
+        image: "/home/case-studies/alumni-community.webp",
+        bgColor: "bg-red-500",
+        textColor: "text-white",
+    },
+];
