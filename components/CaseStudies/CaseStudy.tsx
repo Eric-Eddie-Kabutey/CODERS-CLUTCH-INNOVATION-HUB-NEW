@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { ArrowUpRight, ExternalLink } from "lucide-react";
 
 const filters = [
@@ -93,7 +93,7 @@ function CaseStudy() {
       ? caseStudies
       : caseStudies.filter((c) => c.category === activeFilter);
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -103,7 +103,7 @@ function CaseStudy() {
     }
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
