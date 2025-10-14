@@ -32,7 +32,7 @@ function Events() {
               <span className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
                 Events & Networking
               </span>
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white">
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight text-white">
                 Learn. Connect.
                 <br className="hidden md:block" />
                 Innovate.
@@ -51,7 +51,7 @@ function Events() {
               inspire learning and unlock opportunities for startups.
             </p>
             <div className="flex items-center gap-4">
-              <button className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <button className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 View Upcoming Events
               </button>
             </div>
@@ -69,7 +69,7 @@ function Events() {
           <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-[#0b2027] to-transparent z-10 pointer-events-none" />
           <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[#0b2027] to-transparent z-10 pointer-events-none" />
 
-          <div className="flex space-x-8 overflow-x-auto pb-8 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900">
+          <div className="flex space-x-8 overflow-x-auto pt-2.5 md:pt-4 pb-8 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900">
             {events.map((event, index) => (
               <motion.div
                 key={event.id}

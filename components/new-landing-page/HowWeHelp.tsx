@@ -55,7 +55,7 @@ const HowWeHelp = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16">
+        <h2 className="text-4xl md:text-5xl font-semibold leading-tight text-gray-900  text-center  mb-16">
           How we{' '}
           <span className="relative inline-block">
             help

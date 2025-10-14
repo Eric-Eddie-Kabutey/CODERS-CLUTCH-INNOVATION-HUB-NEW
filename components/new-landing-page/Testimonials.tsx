@@ -46,7 +46,7 @@ function Testimonials() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-green-600 font-medium mb-4">Testimonials</p>
-            <h2 className="text-4xl lg:text-5xl font-bold text-black leading-tight mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-black leading-tight mb-6">
               Our User Kind Words
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto">

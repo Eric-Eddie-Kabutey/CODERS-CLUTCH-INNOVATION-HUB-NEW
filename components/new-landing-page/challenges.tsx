@@ -8,10 +8,10 @@ function Challenges() {
 
       {/* Solutions Section */}
         <div className="p-6 sm:p-12 md:p-16 space-y-8 md:space-y-12">
-          <h3 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-center md:text-left">
-            We connect visionaries, innovators, and entrepreneurs 
+          <h3 className="text-xl md:text-5xl font-semibold leading-tight text-white  sm:text-3xl  lg:text-5xl  text-center md:text-left">
+            Empowering innovators with 
             <br className="hidden md:block" /> 
-            with the tools, mentors, and opportunities they need to make an impact.
+            tools, mentorship, and opportunity.
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
