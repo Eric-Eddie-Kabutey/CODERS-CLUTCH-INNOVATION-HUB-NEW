@@ -17,9 +17,9 @@ const events = [
 
 function Events() {
   return (
-    <section className="w-full bg-[#0b2027] py-24 px-4">
+    <section className="w-full bg-emerald-700 py-24 px-4">
       {/* Uniform container - width matches Innovation and ContactSection */}
-      <div className="w-full max-w-7xl mx-auto bg-[#0b2027] rounded-tr-3xl rounded-tl-3xl p-4 sm:p-6 md:p-8">
+      <div className="w-full max-w-7xl mx-auto bg-emerald-700 rounded-tr-3xl rounded-tl-3xl p-4 sm:p-6 md:p-8">
         
         {/* Top Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
