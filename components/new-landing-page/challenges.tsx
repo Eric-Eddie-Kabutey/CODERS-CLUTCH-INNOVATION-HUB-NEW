@@ -4,10 +4,10 @@ import Link from "next/link";
 
 function Challenges() {
   return (
-    <section className="mx-auto px-4 sm:px-6 md:px-10 lg:px-25 py-12 sm:py-16 bg-white text-white rounded-3xl">
+    <section className="w-full px-4 sm:px-6 md:px-10 lg:px-25 py-12 sm:py-16 bg-emerald-800 text-white">
 
       {/* Solutions Section */}
-        <div className="bg-[#f3fef2] text-black rounded-2xl shadow-lg p-6 sm:p-12 md:p-16 space-y-8 md:space-y-12">
+        <div className="p-6 sm:p-12 md:p-16 space-y-8 md:space-y-12">
           <h3 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-center md:text-left">
             We connect visionaries, innovators, and entrepreneurs 
             <br className="hidden md:block" /> 
@@ -19,12 +19,12 @@ function Challenges() {
             {/* Product Strategy */}
             <div className="border-b border-black/10 pb-4 md:border-b-0 md:border-r md:pr-6">
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">Product Strategy</h4>
-              <p className="text-gray-800 mb-4 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
+              <p className="text-gray-200 mb-4 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
                 Our approach to product strategy is simple: we dive deep into your ideas, break down the challenges, and create a clear roadmap that aligns technology with your vision, guiding your product from concept to reality.
               </p>
               <Link
                 href="/services"
-                className="inline-block border border-gray-600 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm md:text-base font-medium hover:bg-gray-200 transition-colors"
+                className="inline-block border-2 border-emerald-800 bg-white text-emerald-800 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm md:text-base font-medium hover:border-white  transition-all duration-300 shadow-sm hover:shadow-md"
               >
                 Develop a strategy
               </Link>
@@ -33,12 +33,12 @@ function Challenges() {
             {/* Product Design */}
             <div className="border-b border-black/10 pb-4 md:border-b-0 md:border-r md:px-6">
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">Product Design</h4>
-              <p className="text-gray-800 mb-4 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
+              <p className="text-gray-300 mb-4 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
                 We take the time to truly understand your vision, market needs, and customer behavior. This allows us to design a user-friendly product that connects with your audience and solves real problems.
               </p>
               <Link
                 href="/services"
-                className="inline-block border border-gray-600 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm md:text-base font-medium hover:bg-gray-200 transition-colors"
+                className="inline-block border-2 border-emerald-800 bg-white text-emerald-800 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm md:text-base font-medium hover:border-white  transition-all duration-300 shadow-sm hover:shadow-md"
               >
                 Design your product
               </Link>
@@ -47,12 +47,12 @@ function Challenges() {
             {/* Product Development */}
             <div className="pb-4 md:pl-6">
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">Product Development</h4>
-              <p className="text-gray-800 mb-4 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
+              <p className="text-gray-300 mb-4 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
                 Product development is like conducting a symphony — we work hand-in-hand with you every step of the way. Using the right technologies and methods, we ensure your product is both scalable and functional.
               </p>
               <Link
                 href="/services"
-                className="inline-block border border-gray-600 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm md:text-base font-medium hover:bg-gray-200 transition-colors"
+                className="inline-block border-2 border-emerald-800 bg-white text-emerald-800 rounded-full px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm md:text-base font-medium hover:border-white  transition-all duration-300 shadow-sm hover:shadow-md"
               >
                 Build your product
               </Link>
