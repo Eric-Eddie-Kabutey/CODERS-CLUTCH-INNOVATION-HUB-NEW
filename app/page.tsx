@@ -1,10 +1,7 @@
-// import Image from "next/image";
-
 import WhoWeAre from "@/components/home/WhoWeAre";
 import CaseStudiesCarousel from "@/components/new-landing-page/CaseStudiesCarousel";
 import Challenges from "@/components/new-landing-page/challenges";
 import Events from "@/components/new-landing-page/Event";
-import FoundersCompass from "@/components/new-landing-page/FoundersCompass";
 import Hero from "@/components/new-landing-page/Hero";
 import HowWeHelp from "@/components/new-landing-page/HowWeHelp";
 import NewFooter from "@/components/new-landing-page/NewFooter";
@@ -21,9 +18,7 @@ export default function Home() {
       <HowWeHelp />
       <Events />      
       <CaseStudiesCarousel />      
-       <ProcessSteps />
-      <FoundersCompass />
-      {/* <Innovation /> */}
+       <ProcessSteps />            
       <Testimonials />      
       <NewFooter />
     </div>
