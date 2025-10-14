@@ -73,8 +73,8 @@ const NewNavbar: React.FC = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-[1200px] rounded-xl border bg-white shadow-md">
-      <div className="flex items-center justify-between h-20 px-6 md:px-10 lg:px-12">
+    <header className="fixed top-0 left-0 right-0  z-50 border bg-white shadow-md">
+      <div className="w-full max-w-[1200px] mx-auto flex items-center justify-between h-20 px-6 md:px-10 lg:px-12">
         {/* Logo */}
         <Link href={defaultLogo.url} className="flex items-center">
           <Image
