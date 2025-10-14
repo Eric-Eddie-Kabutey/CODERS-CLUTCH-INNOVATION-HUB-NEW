@@ -57,7 +57,7 @@ const navMenuItems: MenuItem[] = [
       { title: "Tools", url: "/tools" },
     ],
   },
-  { title: "Contact", url: "/contact" },
+  { title: "Get Started", url: "/contact" },
 ];
 
 // Default logo
@@ -163,7 +163,7 @@ const renderDesktopMenuItem = (item: MenuItem) => {
           navigationMenuTriggerStyle(),
           "bg-transparent",
           linkClassName,
-          "px-2 py-1"
+          "px-4 py-1 border-1 border-blue-600 rounded-lg hover:bg-green-50"
         )}
       >
         {item.title}
