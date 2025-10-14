@@ -1,17 +1,14 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import Image from "next/image";
 
 function NewFooter() {
   return (
     <footer className="bg-white text-gray-700 px-16 md:px-32 py-16 border-t">
       <div className="flex flex-col md:flex-row justify-between gap-16">
         {/* Left Column: Logo and Description */}
-        <div className="md:w-1/3">
-          <img
-            src="/logo.png"
-            alt="Coders Clutch Logo"
-            className="w-36 mb-6"
-          />
+        <div className="md:w-1/3">          
+          <Image src={"/BlueSpace-BIH-1.png"} alt="Coders Clutch Logo" width={200} height={50} className="mb-6"/>
           <p className="text-sm leading-relaxed">
             Visionaries, innovators, and entrepreneurs with the tools, mentors,
             and opportunities they need to make an impact.
