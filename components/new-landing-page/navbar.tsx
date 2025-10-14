@@ -28,10 +28,9 @@ interface MenuItem {
   items?: MenuItem[];
 }
 
-// ✅ Updated menu items
 const navMenuItems: MenuItem[] = [
   {
-    title: "About",
+    title: "Who We Are",
     url: "/about",
     items: [
       { title: "About", url: "/about" },
@@ -39,23 +38,23 @@ const navMenuItems: MenuItem[] = [
     ],
   },
   {
-    title: "Our Pillars",
+    title: "What we Do",
     url: "",
     items: [
   { title: "CapitalFACTORY", url: "/our-pillers/capitalFactory" },
   { title: "CodeFACTORY", url: "/our-pillers/code-factory" },
   { title: "DigitalFACTORY", url: "/our-pillers/digitalFactory" },
-  { title: "TalentFACTORY", url: "/our-pillers/talentFactory" },
-  ],
-  },
+      { title: "TalentFACTORY", url: "/our-pillers/talentFactory" },
   { title: "Services", url: "/services" },
+  ],
+  },  
   {
-    title: "Insights",
-    url: "/insights",
+    title: "Resources",
+    url: "#",
     items: [
       { title: "News", url: "/insights" },
       { title: "Case Study", url: "/case-studies" },
-      { title: "Tools", url: "/tools" }, // ✅ Added Tools
+      { title: "Tools", url: "/tools" },
     ],
   },
   { title: "Contact", url: "/contact" },
@@ -74,7 +73,7 @@ const NewNavbar: React.FC = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0  z-50 bg-white border-b-2">
-      <div className="w-full max-w-[1200px] mx-auto flex items-center justify-between h-20 px-6 md:px-10 lg:px-12">
+      <div className="container mx-auto px-6 sm:px-12 md:px-16 lg:px-[6rem] xl:px-[8rem] flex items-center justify-between h-20">
         {/* Logo */}
         <Link href={defaultLogo.url} className="flex items-center">
           <Image
