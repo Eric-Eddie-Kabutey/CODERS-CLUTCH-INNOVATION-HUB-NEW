@@ -17,7 +17,7 @@ export const CAROUSEL_DATA = [
         subtitle: "Everything you need to kickstart your AI journey.",
         linkText: "Explore",
         image: "/home/case-studies/investor-network.webp",
-        bgColor: "bg-white",
+        bgColor: "bg-gray-400",
         textColor: "text-gray-800",
     },
     {
@@ -37,7 +37,7 @@ export const CAROUSEL_DATA = [
         subtitle: "Build AI agents from prototype to production",
         linkText: "Learn more",
         image: "/home/case-studies/alumni-community.webp",
-        bgColor: "bg-red-500",
+        bgColor: "bg-purple-500",
         textColor: "text-white",
     },
 ];
