@@ -1,4 +1,5 @@
 import NewFooter from '@/components/new-landing-page/NewFooter'
+import Organization from '@/components/new-landing-page/organization'
 import ServicesHero from '@/components/services/hero'
 import ProductDesign from '@/components/services/ProductDesign'
 import ProductDevelopment from '@/components/services/ProductDevelopment'
@@ -14,7 +15,8 @@ function page() {
     <ProductLab />
     <ProductStrategy />
     <ProductDesign />
-    <ProductDevelopment />
+      <ProductDevelopment />
+      <Organization />
     <TestimonialsServices />
     <NewFooter />
     </div>
