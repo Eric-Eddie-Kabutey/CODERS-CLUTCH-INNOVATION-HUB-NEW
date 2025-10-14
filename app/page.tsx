@@ -6,6 +6,7 @@ import Challenges from "@/components/new-landing-page/challenges";
 import Events from "@/components/new-landing-page/Event";
 import FoundersCompass from "@/components/new-landing-page/FoundersCompass";
 import Hero from "@/components/new-landing-page/Hero";
+import HowWeHelp from "@/components/new-landing-page/HowWeHelp";
 import Innovation from "@/components/new-landing-page/innovation-process";
 import NewFooter from "@/components/new-landing-page/NewFooter";
 import Organization from "@/components/new-landing-page/organization";
@@ -17,11 +18,10 @@ export default function Home() {
     <div>
       <Hero />
       <WhoWeAre />
-      <Challenges />
-      {/* <CaseStudies /> */}
+      <Challenges />            
+      <HowWeHelp />
+      <Events />      
       <CaseStudiesCarousel />
-      {/* <NetworkSection /> */}
-      <Events />
       <Organization />
       <FoundersCompass />
       <Innovation />
