@@ -32,7 +32,7 @@ const CaseStudiesCarousel = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="py-16">
+    <section className="py-16 md:py-28">
       <div className="text-center mb-12">
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">
             THE LATEST FROM GOOGLE FOR STARTUPS
