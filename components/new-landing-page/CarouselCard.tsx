@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import GraphicDecoration from './GraphicDecoration'; // Make sure this component exists
+import GraphicDecoration from './GraphicDecoration';
+import { TextWithUnderlineSvg } from '../svg/UnderlineSvg';
 
 type CardProps = {
   category: string;
@@ -18,7 +19,7 @@ const CarouselCard = ({ category, title, subtitle, linkText, image, bgColor, tex
     <motion.div
       layout
       // The parent container handles the rounding and overflow
-      className={`relative flex flex-col md:flex-row w-full h-full lg:min-h-[300px]  2xl:min-h-[400px] rounded-2xl overflow-hidden shadow-lg ${bgColor}`}
+      className={`relative flex flex-col md:flex-row w-full h-full lg:min-h-[300px]  2xl:min-h-[400px] rounded-xl overflow-hidden shadow-lg ${bgColor}`}
     >
       {/* --- Image Section (Refactored) --- */}
       {/* Takes up 40% width on medium screens and up (md:w-2/5) */}
@@ -37,10 +38,13 @@ const CarouselCard = ({ category, title, subtitle, linkText, image, bgColor, tex
 
       {/* --- Text Content Section (Refactored) --- */}
       {/* Takes up 60% width on medium screens and up (md:w-3/5) */}
-      <div className={`w-full md:w-3/5 p-8 md:p-12 lg:p-16 flex flex-col justify-center ${bgColor} ${textColor}`}>
+      <div className={`w-full md:w-3/5 py-6 md:py-8 lg:py-10 px-8 md:px-10 lg:px-12 flex flex-col justify-between ${bgColor} ${textColor}`}>
         <p className="text-sm uppercase font-light tracking-wider mb-2">{category}</p>
-        <h2 className="text-xl md:text-4xl font-normal leading-tight mb-4">{title}</h2>
-        <p className="text-base mb-8">{subtitle}</p>
+        <TextWithUnderlineSvg className='hidden md:inline-block -left-[0px]' >
+        <h2 className="text-xl md:text-4xl font-normal leading-tight mb-4">{title}</h2>        
+        </TextWithUnderlineSvg>
+     
+        <p className="text-sm font-semibold mb-8">{subtitle}</p>
         <a href="#" className="font-semibold group">
           {linkText}
           <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
